@@ -1,0 +1,15 @@
+api:
+  enabled: true
+  address: "127.0.0.1:8686"
+
+sources:
+  generator:
+    type: "demo_logs"
+    format: "shuffle"
+    interval: 1
+
+sinks:
+  stdout:
+    type: "console"
+    inputs: ["generator"]
+    encoding: "json"
