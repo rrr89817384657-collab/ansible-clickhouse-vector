@@ -1,0 +1,4 @@
+---
+nginx_port: 80
+lighthouse_repo: "https://github.com/VKCOM/lighthouse.git"
+lighthouse_dir: "/var/www/lighthouse"
